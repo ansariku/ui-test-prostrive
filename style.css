@@ -35,23 +35,6 @@ body::before {
   pointer-events: none;
 }
 
-#page-loader {
-  position: fixed;
-  height: 120%;
-  inset: 0;
-  z-index: 99999;
-  background: #000B2E;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='20' cy='20' r='3' fill='%234D6FCC' fill-opacity='0.25'/%3E%3C/svg%3E");
-  background-size: 25px 25px;
-  pointer-events: none;
-  transition: opacity 0.5s ease;
-}
-
-#page-loader.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
 /* Cursor glow follower */
 #cursor-glow {
   position: fixed;

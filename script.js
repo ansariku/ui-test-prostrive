@@ -1,9 +1,3 @@
-window.addEventListener('load', () => {
-  const loader = document.getElementById('page-loader');
-  loader.classList.add('hidden');
-  loader.addEventListener('transitionend', () => loader.remove(), { once: true });
-});
-
 // This is the cursor glow effect
 const glow = document.getElementById('cursor-glow');
 
